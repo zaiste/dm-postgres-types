@@ -34,10 +34,6 @@ module DataMapper
           (load_raw_value) ? '{}' : {}
         end
       end
-
-      def primitive?(value)
-        value.kind_of?(::String)
-      end
     end
   end
 end
